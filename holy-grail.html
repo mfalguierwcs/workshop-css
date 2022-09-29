@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Holy grail</title>
+        <style>
+            body {
+                margin: 0;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            header,
+            footer {
+                background-color: aqua;
+                min-height: 10vh;
+                width: 100%;
+            }
+            main {
+                width: 100%;
+                display: flex;
+            }
+            nav,
+            aside,
+            article {
+                min-height: 80vh;
+            }
+
+            nav,
+            aside {
+                width: 20%;
+                background-color: blue;
+            }
+
+            article {
+                width: 60%;
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <nav></nav>
+            <article></article>
+            <aside></aside>
+        </main>
+        <footer></footer>
+    </body>
+</html>

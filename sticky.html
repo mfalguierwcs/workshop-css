@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sticky</title>
+        <style>
+            body {
+                margin: 0;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+                grid-gap: 1rem;
+            }
+
+            li {list-style-type: none}
+
+            .sticky {
+                position: sticky;
+                box-shadow: 4px 3px 5px 0px rgba(161,161,161,0.75);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header class="sticky">
+        <nav>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+        </nav>
+        </header>
+    </body>
+</html>
